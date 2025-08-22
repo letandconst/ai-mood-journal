@@ -1,0 +1,15 @@
+// src/assets/styles/globals.scss
+@use "./variables" as *;
+
+body {
+  margin: 0;
+  font-family: $font-stack;
+  background: $base-bg;
+  color: #222;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,11 +1,21 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div id="app">
+    <router-view />
+    <Toaster />
+  </div>
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+import { provide } from "vue";
+import { useTheme } from "./composables/useTheme";
+import Toaster from "./components/ui/Toaster.vue";
+
+export type ThemeInjection = ReturnType<typeof useTheme>;
+
+const theme = useTheme();
+provide<ThemeInjection>("theme", theme);
+</script>
+
+<style lang="scss">
+@use "./assets/styles/main" as *;
+</style>

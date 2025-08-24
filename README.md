@@ -1,6 +1,6 @@
 # MoodJournal 🌟
 
-A beautiful and intuitive mood tracking and journaling application designed to support your emotional wellness journey. Track your daily moods, write reflective journal entries, and gain insights into your emotional patterns over time.
+MoodJournal is a modern mood tracking and journaling app built with Vue 3, TypeScript, and SCSS. It helps you log daily emotions, write reflections, and discover patterns through visual analytics — all while keeping your data private with local storage.
 
 ## ✨ Features
 
@@ -61,19 +61,6 @@ A beautiful and intuitive mood tracking and journaling application designed to s
 - **Animations**: CSS animations and transitions
 - **Date/Time**: Date-fns for date manipulation
 - **Router**: Vue Router
-
-## 🎨 Design System
-
-### Color Palette
-
-- **Primary**: Warm orange (#ea580c) - Energy and optimism
-- **Secondary**: Vibrant orange (#f97316) - Warmth and encouragement
-- **Mood Colors**:
-  - Happy: Golden yellow (#fbbf24)
-  - Sad: Calm blue (#3b82f6)
-  - Anger: Bold red (#ef4444)
-  - Fear: Deep purple (#8b5cf6)
-  - Disgust: Fresh green (#10b981)
 
 ## 📱 Usage Guide
 
